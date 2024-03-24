@@ -2,7 +2,7 @@
 
 ## 👉 **시작하기에 앞서**
 
-![링크](https://js-task-final-employeelist.vercel.app/#/)
+![링크](https://vercel.com/hyejeong-lims-projects/js-task-final-employeelist/FWn7RVK2Qr89wZqL4ujcd9uEm3ZP)
 
 
 1. 최근에 아이맥스 영화관에서 감명 깊게 본 영화 <듄>의 설정을 보다가 이 내용을 가져다 JS 과제를 진행하면 좋을 것 같았습니다.
