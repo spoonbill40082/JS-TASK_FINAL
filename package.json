@@ -18,10 +18,5 @@
     "dayjs": "^1.11.10",
     "node-fetch": "^2.7.0"
   },
-<<<<<<< HEAD
   "description": "**데모 페이지:** https://js-task-final-employeelist.vercel.app/#/"
-=======
-  "description": "**데모 페이지:** https://js-task-final-employeelist.vercel.app/#/",
-  "main": "index.js"
->>>>>>> 276a6fc895740df798e66046ddc6b7dcc8f297d9
 }
