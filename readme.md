@@ -2,8 +2,8 @@
 
 ## 👉 **시작하기에 앞서**
 
-**Vercel 페이지:**
-https://js-task-final-employeelist.vercel.app/#/
+**![캐릭터 목록 페이지(VERCEL)](https://js-task-final-employeelist.vercel.app/#/)**
+
 
 1. 최근에 아이맥스 영화관에서 감명 깊게 본 영화 <듄>의 설정을 보다가 이 내용을 가져다 JS 과제를 진행하면 좋을 것 같았습니다.
 2. 영상 강의에서 실습한 JS 스크립트를 최대한 활용해 여러 기능을 구성하고자 했습니다.
