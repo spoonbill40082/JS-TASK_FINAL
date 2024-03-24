@@ -18,6 +18,5 @@
     "dayjs": "^1.11.10",
     "node-fetch": "^2.7.0"
   },
-  "main": "index.js",
   "description": ""
 }
