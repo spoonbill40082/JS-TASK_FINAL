@@ -31,7 +31,7 @@ https://js-task-final-employeelist.vercel.app/#/
 ## 👉 **자료**
 
 ### 유저 플로우 ###
-![유저플로우]()
+![유저플로우](./image/user_flow.png)
 
 ### 프로필 페이지 ###
 ![프로필](./image/profile_page.png)
