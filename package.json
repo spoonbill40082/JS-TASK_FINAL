@@ -18,5 +18,6 @@
     "dayjs": "^1.11.10",
     "node-fetch": "^2.7.0"
   },
-  "description": ""
+  "description": "**데모 페이지:** https://js-task-final-employeelist.vercel.app/#/",
+  "main": "index.js"
 }

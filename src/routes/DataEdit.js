@@ -19,7 +19,7 @@ export default class DataEdit extends Component {
 
     this.el.innerHTML = /*html*/ `
       <div class="employee-info edit-title">Edit Profile</div>
-      <div class="edit-area skeleton"></div>        
+      <div class="employee-info skeleton"></div>        
     `;
 
     const hash = window.location.hash;
@@ -36,7 +36,7 @@ export default class DataEdit extends Component {
     setTimeout(() => {
       // 데이터가 제대로 반환되었는지 확인
       if (employeeData) {
-        // 로컬 스토리지에서 데이터 불러오기
+
         const savedData =
           JSON.parse(localStorage.getItem(employeeData.Id)) || {};
 
@@ -175,7 +175,6 @@ export default class DataEdit extends Component {
           textarea.style.height = textarea.scrollHeight + "px"; // scrollHeight로 내용의 높이를 계산하여 설정
         }
 
-        // 모든 textarea 요소에 대해 자동 높이 조절 이벤트를 추가
         const textareas = document.querySelectorAll(
           "#photoInput, #overviewInput"
         );
@@ -185,7 +184,6 @@ export default class DataEdit extends Component {
           });
         });
 
-        // 초기화할 때 모든 textarea에 대해 높이를 조절
         textareas.forEach((textarea) => {
           autoHeight(textarea);
         });

@@ -12,7 +12,6 @@ export default class Data extends Component {
       <div class="photo skeleton">
         <div class="in-skeleton"></div>   
       </div>
-      <div class="specs skeleton"></div>
     `
 
     const emData = getEmployeeDetail(history.state.id);

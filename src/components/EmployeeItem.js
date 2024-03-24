@@ -58,7 +58,7 @@ export default class EmployeeItem extends Component {
       `;
     }
 
-    // 디버깅용
+
     this.el.addEventListener("click", () => {
       console.log(em.name);
     });

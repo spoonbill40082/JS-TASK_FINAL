@@ -57,7 +57,6 @@ export default class Home extends Component {
     // 페이지 로드 시 이벤트 연결
     document.addEventListener('DOMContentLoaded', connectEvents);
 
-    // 페이지 내용 변경 감지
     const observer = new MutationObserver(mutationsList => {
       for (let mutation of mutationsList) {
         if (mutation.type === 'childList') {
@@ -66,7 +65,6 @@ export default class Home extends Component {
       }
     });
 
-    // MutationObserver 설정
     observer.observe(document.body, {
       childList: true,
       subtree: true

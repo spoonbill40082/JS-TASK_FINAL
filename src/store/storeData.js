@@ -111,9 +111,6 @@ export const searchEmployees = () => {
 
   const callback = async () => {
     try {
-      // if (!sampleEmployeeData) {
-      //   throw new Error("Employee data not found.");
-      // }
       initialize();
       const searchKeyword = store.state.searchText;
       const noSearch = searchKeyword.trim() === "";
@@ -127,7 +124,7 @@ export const searchEmployees = () => {
       // 검색 결과를 employeeData에 설정
       store.state.employees = searchResult;
 
-      // 로딩 상태 변경
+      // 로딩 상태
       store.state.loading = false;
     } catch (error) {
       console.log("searchEmployees error:", error);

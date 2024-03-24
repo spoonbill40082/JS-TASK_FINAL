@@ -648,15 +648,6 @@ justify-content: end;
   animation: skeleton-loader 2s infinite;
 }
 
-/* 
-.in-skeleton {
-  width: 95%;
-  height: 95%;
-  background-color: black;
-}
-.in-skeleton::after {
-  background-image: var(--color-black);
-} */
 
 @keyframes skeleton-loader {
   0% {
