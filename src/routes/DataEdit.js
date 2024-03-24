@@ -13,7 +13,7 @@ export default class DataEdit extends Component {
       this.render();
     });
   }
-
+ 
   render() {
     this.el.classList.add("container", "the-employee");
 
